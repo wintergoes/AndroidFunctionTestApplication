@@ -1,4 +1,4 @@
-# Install script for directory: /home/liuderu/AndroidStudioProjects/AndroidFunctionTestApplication2/app
+# Install script for directory: /home/liuderu/AndroidStudioProjects/AndroidFunctionTestApplication/app
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/liuderu/AndroidStudioProjects/AndroidFunctionTestApplication2/app/.externalNativeBuild/cmake/debug/armeabi-v7a/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/liuderu/AndroidStudioProjects/AndroidFunctionTestApplication/app/.externalNativeBuild/cmake/debug/armeabi-v7a/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

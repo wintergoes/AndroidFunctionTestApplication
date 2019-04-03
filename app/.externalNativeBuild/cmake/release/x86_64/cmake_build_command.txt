@@ -1,10 +1,10 @@
 Executable : /home/liuderu/Android/Sdk/cmake/3.10.2.4988404/bin/cmake
 arguments : 
--H/home/liuderu/AndroidStudioProjects/AndroidFunctionTestApplication2/app
--B/home/liuderu/AndroidStudioProjects/AndroidFunctionTestApplication2/app/.externalNativeBuild/cmake/release/x86_64
+-H/home/liuderu/AndroidStudioProjects/AndroidFunctionTestApplication/app
+-B/home/liuderu/AndroidStudioProjects/AndroidFunctionTestApplication/app/.externalNativeBuild/cmake/release/x86_64
 -DANDROID_ABI=x86_64
 -DANDROID_PLATFORM=android-16
--DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/liuderu/AndroidStudioProjects/AndroidFunctionTestApplication2/app/build/intermediates/cmake/release/obj/x86_64
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/liuderu/AndroidStudioProjects/AndroidFunctionTestApplication/app/build/intermediates/cmake/release/obj/x86_64
 -DCMAKE_BUILD_TYPE=Release
 -DANDROID_NDK=/home/liuderu/Android/Sdk/ndk-bundle
 -DCMAKE_CXX_FLAGS=
