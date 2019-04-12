@@ -4,9 +4,10 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.TextView;
 
 import bcoder.com.androidfunctiontestapplication.activities.FileScanActivity;
+import bcoder.com.androidfunctiontestapplication.activities.HandlerLeakActivity;
+import bcoder.com.androidfunctiontestapplication.activities.LayoutWeightTestActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -30,6 +31,16 @@ public class MainActivity extends AppCompatActivity {
 
     public void onOpenFileScanTest(View view) {
         Intent intent = new Intent(this, FileScanActivity.class);
+        startActivity(intent);
+    }
+
+    public void onHandlerLeakTestClick(View view) {
+        Intent intent = new Intent(this, HandlerLeakActivity.class);
+        startActivity(intent);
+    }
+
+    public void onLayoutWeightTestClick(View view) {
+        Intent intent = new Intent(this, LayoutWeightTestActivity.class);
         startActivity(intent);
     }
 }
